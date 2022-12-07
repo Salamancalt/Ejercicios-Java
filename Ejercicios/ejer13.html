@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function primo(){
+            var n1 = prompt("Escribe un número");
+            var i = 2;
+            while (n1 % i !== 0 && i < n1 / 2 ) {
+            i++;
+
+        }
+
+        if (n1 % i !== 0) {
+
+            alert("El número es primo");
+
+        } else {
+
+            alert("El número no es primo");
+
+        }
+
+
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero primo</title>
+</head>
+<body onload=primo()>
+    
+</body>
+</html>
